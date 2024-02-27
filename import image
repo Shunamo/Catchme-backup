@@ -1,0 +1,16 @@
+import bearFemale from "./image/MeetingRoomList/Animals/bearFemale.png";
+import catFemale from "./image/MeetingRoomList/Animals/catFemale.png";
+import rabbitFemale  from "./image/MeetingRoomList/Animals/rabbitFemale.png";
+import foxFemale from "./image/MeetingRoomList/Animals/foxFemale.png";
+import dogFemale from "./image/MeetingRoomList/Animals/dogFemale.png";
+import dinoMale from  "./image/MeetingRoomList/Animals/dinoMale.png";
+import tigerMale from "./image/MeetingRoomList/Animals/tigerMale.png";
+import snakeMale from  "./image/MeetingRoomList/Animals/snakeMale.png";
+import sheepMale from  "./image/MeetingRoomList/Animals/sheepMale.png";
+import pandaMale from  "./image/MeetingRoomList/Animals/pandaMale.png";
+
+const getRandomImage = () => {
+  const randomIndex = Math.floor(Math.random() * keys.length);
+  const randomKey = keys[randomIndex];
+  return imagesContext(randomKey); // 이미지를 가져오기 위해 이미지 컨텍스트 함수에 키를 전달
+};
